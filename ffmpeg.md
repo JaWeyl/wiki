@@ -1,3 +1,12 @@
+# Genereal
+- ```Containers```: ```.avi, .mov, .mp4```
+  - contains video data, audio data, timecode and codec instructions
+- A ```codec``` is software that is used to compress and decompress video and audio data 
+  - ```h.264, mpeg2```
+  - given a container you do not know directly which codec instructions it is using
+- ```Formats``` are specifications for video caputre and delivery
+  - ```AVCHD``` for example specifies the h.264 codec
+  
 # FFMPEG Basic Synatx
 - Convert ```Fileformat```: ```ffmpeg -i <input-name> <output-name>```
 
