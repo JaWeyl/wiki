@@ -158,3 +158,12 @@ clean:
 	@echo "Cleaning up..."
 	rm -rvf foo.o foo
 ```
+
+# Specail Syntax
+- A semicolon on the line with the target-dependencies is the first line to execute for this rule
+  ```
+  The commands of a rule consist of shell command lines to be executed one by one. Each command line must start with a tab, except that the first command line may be attached to the target-and-prerequisites line with a semicolon in between.
+  ```
+  ```makefile
+  target: dependencies; recipe
+  ```

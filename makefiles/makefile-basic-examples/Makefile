@@ -9,3 +9,4 @@ generate:
 clean:
 	@echo "Remove all text files in current folder..."
 	rm *.txt
+
