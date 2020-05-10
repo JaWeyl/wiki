@@ -1,4 +1,6 @@
-Run ```brew install duti````
+# Set default application for file types
+
+Run ```brew install duti```
 
 - First you need the *identifier* of the application you want to set as default, e.g. for Visual Code
 
