@@ -15,7 +15,7 @@ python3 -m venv env_name
 
 - Activate virtual environment
 ```bash
-source -m env_name/bin/activate
+source env_name/bin/activate
 ```
 
 - Deactivate virtual environment
